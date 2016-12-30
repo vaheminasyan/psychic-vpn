@@ -2,13 +2,12 @@
 
 # File location
 # /etc/ppp/ip-up
-
-# Parameters which can be used in this script
-# $1 The VPN interface
-# $2  Unknown parameter
-# $3 IP of the VPN server
-# $4 VPN gateway address
-# $5 Regular (non-vpn) gateway for LAN connections
+#       $1      the interface name used by pppd (e.g. ppp0)
+#       $2      the tty device name
+#       $3      the tty device speed
+#       $4      the local IP address for the interface
+#       $5      the remote IP address
+#       $6      the parameter specified by the 'ipparam' option to pppd
 
 #Permissions for the file
 # chmod 755 
